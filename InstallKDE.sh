@@ -16,6 +16,7 @@ sleep 2
 echo "Installing KDE (Select SDDM)"
 echo "#################################"
 sudo apt install -y kde-plasma-desktop
+sudo apt remove plasma-discover
 sleep 2
 echo "##########################################"
 echo "Done ! Plasma Session availabe on login"
