@@ -6,7 +6,6 @@ echo "##########################################"
 sleep 5
 echo "Preparing build environment"
 echo "#####################################"
-sudo apt install -y git
 sudo apt install -y cmake extra-cmake-modules qtdeclarative5-dev libqt5x11extras5-dev libkf5iconthemes-dev libkf5plasma-dev
 sudo apt install -y libkf5windowsystem-dev libkf5declarative-dev libkf5xmlgui-dev libkf5activities-dev build-essential
 sudo apt install -y libxcb-util-dev libkf5wayland-dev git gettext libkf5archive-dev libkf5notifications-dev libxcb-util0-dev
